@@ -153,6 +153,14 @@ RSpec.describe 'Icebreakers Homepage' do
             expect(html_file_contents).to include('</h4>')
           end
 
+          it 'contains a p tag following the <h4> tag' do
+            p_tags = parsed_html.search('html > body > main > div > h4 + p')
+
+            expect(p_tags).to_not be_empty
+
+            expect(html_file_contents).to include('</p>')
+          end
+
           it 'contains a pair of <p> tags to enclose the ' do
             p_tags = parsed_html.search('html > body > main > div > h4 + p')
 
