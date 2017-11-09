@@ -10,7 +10,7 @@ Open `index.html` in your text editor. You'll see the code that we wrote in the 
 
 Inside the `body` tags and below the `header` section, create a new `main` section that will house all of the primary content for our homepage. Within the new `main` tags, nest a pair of `div` elements. The first `div` element should contain an `h1` with some text you'd like to use as the main heading on the page. Below the `h1`, add a `p`(aragraph) element with some text describing the site. For all of these content elements you're adding, the content doesn't matter. Be creative! The tests will only be checking that the correct elements exist in the correct places.
 
-The second `div` element should contain two sets of `h4` followed by a `p` tag element. Think of this as a "component" for a question, a title follow by a description. The `p` elements should each contain a single `a` element with an `href` that points to `#` (which we're using as a placeholder since we haven't yet created any other pages that we'd want our links to point at).
+The second `div` element should contain two `h4` elements with each one followed by a `p` tag element. Think of this as a "component" for a question, a title followed by a description. The `p` elements should each contain a single `a` element with an `href` that points to `#` (which we're using as a placeholder since we haven't yet created any other pages that we'd want our links to point at).
 
 Finally, beneath the closing `main` tag but still within the `body`, create a `footer` element that contains a `p` element.
 
